@@ -10,4 +10,11 @@
 
 @implementation CustomController
 
+-(void)viewDidLoad{
+
+    [super viewDidLoad];
+    self.title = @"custom";
+    self.view.backgroundColor = [UIColor redColor];
+}
+
 @end
