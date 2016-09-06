@@ -16,9 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    self.title = @"基本控制器";
-    
+    self.view.backgroundColor = [UIColor purpleColor];
+    self.title = @"这个时期";
+
 }
 
 - (void)didReceiveMemoryWarning {
