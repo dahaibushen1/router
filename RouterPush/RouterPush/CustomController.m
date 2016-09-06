@@ -15,6 +15,14 @@
     [super viewDidLoad];
     self.title = @"custom";
     self.view.backgroundColor = [UIColor redColor];
+    
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+
+    [super viewWillAppear: animated];
+    //视图即将出现时候调用
+    NSLog(@"look here animated");
 }
 
 @end
