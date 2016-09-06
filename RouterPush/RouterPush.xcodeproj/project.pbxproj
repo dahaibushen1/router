@@ -16,6 +16,7 @@
 		85F5A36C1D7F02CD00D0AE18 /* RouterPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A36B1D7F02CD00D0AE18 /* RouterPushTests.m */; };
 		85F5A3771D7F02CD00D0AE18 /* RouterPushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A3761D7F02CD00D0AE18 /* RouterPushUITests.m */; };
 		85F5A3891D7F05C000D0AE18 /* CustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A3881D7F05C000D0AE18 /* CustomController.m */; };
+		85F5A38C1D7F060900D0AE18 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A38B1D7F060900D0AE18 /* DetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		85F5A3781D7F02CD00D0AE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F5A3871D7F05C000D0AE18 /* CustomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomController.h; sourceTree = "<group>"; };
 		85F5A3881D7F05C000D0AE18 /* CustomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomController.m; sourceTree = "<group>"; };
+		85F5A38A1D7F060900D0AE18 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		85F5A38B1D7F060900D0AE18 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				85F5A3581D7F02CD00D0AE18 /* ViewController.m */,
 				85F5A3871D7F05C000D0AE18 /* CustomController.h */,
 				85F5A3881D7F05C000D0AE18 /* CustomController.m */,
+				85F5A38A1D7F060900D0AE18 /* DetailController.h */,
+				85F5A38B1D7F060900D0AE18 /* DetailController.m */,
 				85F5A35A1D7F02CD00D0AE18 /* Main.storyboard */,
 				85F5A35D1D7F02CD00D0AE18 /* Assets.xcassets */,
 				85F5A35F1D7F02CD00D0AE18 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			files = (
 				85F5A3891D7F05C000D0AE18 /* CustomController.m in Sources */,
 				85F5A3591D7F02CD00D0AE18 /* ViewController.m in Sources */,
+				85F5A38C1D7F060900D0AE18 /* DetailController.m in Sources */,
 				85F5A3561D7F02CD00D0AE18 /* AppDelegate.m in Sources */,
 				85F5A3531D7F02CD00D0AE18 /* main.m in Sources */,
 			);
