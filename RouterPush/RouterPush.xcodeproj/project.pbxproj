@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85F214751D80644200B41AC7 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F214741D80644200B41AC7 /* CustomView.m */; };
+		85F214781D80645E00B41AC7 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F214771D80645E00B41AC7 /* SecondView.m */; };
 		85F5A3531D7F02CD00D0AE18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A3521D7F02CD00D0AE18 /* main.m */; };
 		85F5A3561D7F02CD00D0AE18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A3551D7F02CD00D0AE18 /* AppDelegate.m */; };
 		85F5A3591D7F02CD00D0AE18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A3581D7F02CD00D0AE18 /* ViewController.m */; };
@@ -37,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85F214721D80614300B41AC7 /* DetailController_OtherExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController_OtherExtension.h; sourceTree = "<group>"; };
+		85F214731D80644200B41AC7 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		85F214741D80644200B41AC7 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		85F214761D80645E00B41AC7 /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		85F214771D80645E00B41AC7 /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 		85F5A34E1D7F02CD00D0AE18 /* RouterPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F5A3521D7F02CD00D0AE18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85F5A3541D7F02CD00D0AE18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,10 +118,15 @@
 				85F5A3551D7F02CD00D0AE18 /* AppDelegate.m */,
 				85F5A3571D7F02CD00D0AE18 /* ViewController.h */,
 				85F5A3581D7F02CD00D0AE18 /* ViewController.m */,
+				85F214731D80644200B41AC7 /* CustomView.h */,
+				85F214741D80644200B41AC7 /* CustomView.m */,
+				85F214761D80645E00B41AC7 /* SecondView.h */,
+				85F214771D80645E00B41AC7 /* SecondView.m */,
 				85F5A3871D7F05C000D0AE18 /* CustomController.h */,
 				85F5A3881D7F05C000D0AE18 /* CustomController.m */,
 				85F5A38A1D7F060900D0AE18 /* DetailController.h */,
 				85F5A38B1D7F060900D0AE18 /* DetailController.m */,
+				85F214721D80614300B41AC7 /* DetailController_OtherExtension.h */,
 				85F5A35A1D7F02CD00D0AE18 /* Main.storyboard */,
 				85F5A35D1D7F02CD00D0AE18 /* Assets.xcassets */,
 				85F5A35F1D7F02CD00D0AE18 /* LaunchScreen.storyboard */,
@@ -282,9 +294,11 @@
 			files = (
 				85F5A3891D7F05C000D0AE18 /* CustomController.m in Sources */,
 				85F5A3591D7F02CD00D0AE18 /* ViewController.m in Sources */,
+				85F214781D80645E00B41AC7 /* SecondView.m in Sources */,
 				85F5A38C1D7F060900D0AE18 /* DetailController.m in Sources */,
 				85F5A3561D7F02CD00D0AE18 /* AppDelegate.m in Sources */,
 				85F5A3531D7F02CD00D0AE18 /* main.m in Sources */,
+				85F214751D80644200B41AC7 /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
