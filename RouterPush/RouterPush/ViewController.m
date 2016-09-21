@@ -17,7 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor purpleColor];
+    NSLog(@"这个是新建的在分支中创建的........");
     self.title = @"这个时期";
+    UILabel * label = [[UILabel alloc] init];
+    label.text = @"子分支创建的";
 
 }
 
