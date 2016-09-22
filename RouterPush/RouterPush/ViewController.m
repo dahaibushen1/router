@@ -20,7 +20,7 @@
     NSLog(@"这个是新建的在分支中创建的........");
     self.title = @"这个时期";
     UILabel * label = [[UILabel alloc] init];
-    label.text = @"子分支创建的";
+    label.text = @"我又回到子分支了.....";
 
 }
 
