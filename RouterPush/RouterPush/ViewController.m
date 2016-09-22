@@ -22,7 +22,7 @@
     UILabel * label = [[UILabel alloc] init];
     label.frame = CGRectMake(30, 300, 300, 30);
     label.backgroundColor = [UIColor whiteColor];
-    label.text = @"master 主分支使用这个 master";
+    label.text = @"master  master";
     [self.view addSubview:label];
 
 }
