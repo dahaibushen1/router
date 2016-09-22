@@ -16,11 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor purpleColor];
-    NSLog(@"这个是新建的在分支中创建的........");
+    self.view.backgroundColor = [[UIColor purpleColor] colorWithAlphaComponent:0.5];
+//    NSLog(@"这个是新建的在分支中创建的........");
     self.title = @"这个时期";
     UILabel * label = [[UILabel alloc] init];
+    label.frame = CGRectMake(30, 300, 300, 30);
+    label.backgroundColor = [UIColor whiteColor];
     label.text = @"我又回到子分支了.....";
+    [self.view addSubview:label];
 
 }
 
