@@ -27,6 +27,7 @@
     [self.view addSubview:label];
     
     NSLog(@"22:31 这里我没有修改");
+    NSLog(@"这个地方我想修改不要了。。。。。");
 
 
 
