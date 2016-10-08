@@ -24,9 +24,6 @@
     label.backgroundColor = [UIColor whiteColor];
     label.text = @"master  master";
     [self.view addSubview:label];
-    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(30, 120, 60, 60)];
-    button.backgroundColor = [UIColor blueColor];
-    [self.view addSubview:button];
 
 }
 
