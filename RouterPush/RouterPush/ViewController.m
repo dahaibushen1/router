@@ -25,7 +25,7 @@
     label.text = @"master  master";
     [self.view addSubview:label];
     
-    NSLog(@"这里我没有修改");
+    NSLog(@"22:31 这里我没有修改");
 
 }
 
