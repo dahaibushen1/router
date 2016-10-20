@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852ED3D51DB7B83800A92B76 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852ED3D41DB7B83800A92B76 /* Security.framework */; };
+		852ED3D81DB7B89300A92B76 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 852ED3D71DB7B89300A92B76 /* SSKeychain.m */; };
 		85649EA11DA9421B009D78EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85649EA01DA9421B009D78EE /* ViewController.m */; };
 		85F214751D80644200B41AC7 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F214741D80644200B41AC7 /* CustomView.m */; };
 		85F214781D80645E00B41AC7 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F214771D80645E00B41AC7 /* SecondView.m */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		852ED3D41DB7B83800A92B76 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		852ED3D61DB7B89300A92B76 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		852ED3D71DB7B89300A92B76 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
 		85649E9F1DA9421B009D78EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		85649EA01DA9421B009D78EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85F214721D80614300B41AC7 /* DetailController_OtherExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController_OtherExtension.h; sourceTree = "<group>"; };
@@ -71,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852ED3D51DB7B83800A92B76 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +100,9 @@
 		85F5A3451D7F02CD00D0AE18 = {
 			isa = PBXGroup;
 			children = (
+				852ED3D61DB7B89300A92B76 /* SSKeychain.h */,
+				852ED3D71DB7B89300A92B76 /* SSKeychain.m */,
+				852ED3D41DB7B83800A92B76 /* Security.framework */,
 				85F5A3501D7F02CD00D0AE18 /* RouterPush */,
 				85F5A36A1D7F02CD00D0AE18 /* RouterPushTests */,
 				85F5A3751D7F02CD00D0AE18 /* RouterPushUITests */,
@@ -293,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85649EA11DA9421B009D78EE /* ViewController.m in Sources */,
+				852ED3D81DB7B89300A92B76 /* SSKeychain.m in Sources */,
 				85F5A3891D7F05C000D0AE18 /* CustomController.m in Sources */,
 				85F214781D80645E00B41AC7 /* SecondView.m in Sources */,
 				85F5A38C1D7F060900D0AE18 /* DetailController.m in Sources */,
