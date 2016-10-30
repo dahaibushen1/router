@@ -97,6 +97,7 @@
 //    //如何获取固定的用户名称呢
 //    NSLog(@"look here --: %@",[[accounts lastObject] objectForKey:@"acct"]);
     //增加测试的标签
+    //这个地方可以醉哦测试
     
 }
 -(void)viewWillAppear:(BOOL)animated{
