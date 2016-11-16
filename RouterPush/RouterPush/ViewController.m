@@ -79,41 +79,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view addSubview:self.nameLabel];
-    [self.view addSubview:self.passwordLabel];
-    [self.view addSubview:self.button];
-    [self.view addSubview:self.textfield];
-    
-//    [SSKeychain setPassword:kSSToolkitTestsPassword forService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
-//    NSString *password = [SSKeychain passwordForService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
-//    self.passwordLabel.text = password;
-//    
-//    NSArray *accounts = [SSKeychain allAccounts];
-//    
-//    accounts = [SSKeychain accountsForService:kSSToolkitTestsServiceName];
-//    //\U8fd9\U91cc\U662f\U5e10\U53f7\U540d\U5b57
-//    
-//    BOOL issucced = [SSKeychain deletePasswordForService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
-//    //如何获取固定的用户名称呢
-//    NSLog(@"look here --: %@",[[accounts lastObject] objectForKey:@"acct"]);
-    //增加测试的标签
-    //这个地方可以醉哦测试
+//    [self.view addSubview:self.nameLabel];
+//    [self.view addSubview:self.passwordLabel];
+//    [self.view addSubview:self.button];
+//    [self.view addSubview:self.textfield];
+
+    NSLog(@"这是我提交的第一个步骤");
     
 }
--(void)viewWillAppear:(BOOL)animated{
+
+-(void)keyChain{
+
     if (!self.isfirst) {
-    [SSKeychain setPassword:kSSToolkitTestsPassword forService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
-    NSString *password = [SSKeychain passwordForService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
-    self.passwordLabel.text = password;
-    
-    NSArray *accounts = [SSKeychain allAccounts];
-    
-    accounts = [SSKeychain accountsForService:kSSToolkitTestsServiceName];
-    //\U8fd9\U91cc\U662f\U5e10\U53f7\U540d\U5b57
-    
-    BOOL issucced = [SSKeychain deletePasswordForService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
-    //如何获取固定的用户名称呢
-    NSLog(@"look here --: %@",[[accounts lastObject] objectForKey:@"acct"]);
+        [SSKeychain setPassword:kSSToolkitTestsPassword forService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
+        NSString *password = [SSKeychain passwordForService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
+        self.passwordLabel.text = password;
+        
+        NSArray *accounts = [SSKeychain allAccounts];
+        
+        accounts = [SSKeychain accountsForService:kSSToolkitTestsServiceName];
+        //\U8fd9\U91cc\U662f\U5e10\U53f7\U540d\U5b57
+        
+        BOOL issucced = [SSKeychain deletePasswordForService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
+        //如何获取固定的用户名称呢
+        NSLog(@"look here --: %@",[[accounts lastObject] objectForKey:@"acct"]);
     }else{
         NSString *password = [SSKeychain passwordForService:kSSToolkitTestsServiceName account:kSSToolkitTestsAccountName];
         self.passwordLabel.text = password;
@@ -122,11 +111,10 @@
     self.isfirst = YES;
 }
 
-
--(void)buttclick:(UIButton *)butt{
-    CustomController *customvc = [[CustomController alloc] init];
-    [self.navigationController pushViewController:customvc animated:YES];
-    [UIDevice currentDevice];
-}
+//-(void)buttclick:(UIButton *)butt{
+//    CustomController *customvc = [[CustomController alloc] init];
+//    [self.navigationController pushViewController:customvc animated:YES];
+//    [UIDevice currentDevice];
+//}
 
 @end
